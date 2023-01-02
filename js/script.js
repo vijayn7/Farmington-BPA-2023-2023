@@ -136,3 +136,8 @@ function calcualteLoan() {
   document.getElementById("totalLoanIntrest").value = formatter.format(totalLoanIntrest);
   document.getElementById("totalCost").value = formatter.format(total*1 + downPayment*1 + salesTax*1);
 }
+
+//Car Tile Overlay
+function createOverlay() {
+  
+}

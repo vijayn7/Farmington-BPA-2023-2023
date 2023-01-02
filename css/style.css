@@ -221,6 +221,29 @@ section{
     cursor: pointer;
 }
 
+#carOverlay {
+    font-size: 10rem;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 10rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+}
+
+.carOverlay #close-overlay{
+    position: absolute;
+    top:4.5rem; right:2.5rem;
+    font-size: 5rem;
+    color:var(--green);
+    cursor: pointer;
+}
+
 .home{
     padding-top: 10rem;
     text-align: center;

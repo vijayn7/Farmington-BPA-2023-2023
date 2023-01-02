@@ -65,6 +65,11 @@
 
 </div>
 
+<div id="carOverlay" class="carOverlay">
+    <span id="close-overlay" class="fas fa-times"></span>
+    <h1>we</h1>
+</div>
+
 <!-- Filter selector -->
 <section class="selection" id="selection" style="margin-top: 100px;">
     <div class="row">
@@ -192,7 +197,7 @@
                     Automatic -
                     109,280 miles
                 </p>
-                <a href="#" class="btn">check out</a>
+                <a class="btn" onclick="on()">check out</a>
             </div>
         </div>
 
@@ -516,6 +521,14 @@
         document.getElementById(id).style.background = slate;
         document.getElementById('typeAll').style.background = slate;
         document.getElementById('transAll').style.background = slate;
+    }
+
+    function on() {
+        document.getElementById("carOverlay").style.display = "block";
+    }
+
+    function off() {
+    document.getElementById("overlay").style.display = "none";
     }
 </script>
 
