@@ -66,8 +66,12 @@
 </div>
 
 <div id="carOverlay" class="carOverlay">
-    <span id="close-overlay" class="fas fa-times"></span>
-    <h1>we</h1>
+    <span id="close-overlay" class="fas fa-times" onclick="off()"></span>
+    <div class="row">
+        <div class="box">
+            
+        </div>
+    </div>
 </div>
 
 <!-- Filter selector -->
@@ -528,7 +532,7 @@
     }
 
     function off() {
-    document.getElementById("overlay").style.display = "none";
+    document.getElementById("carOverlay").style.display = "none";
     }
 </script>
 
