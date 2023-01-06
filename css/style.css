@@ -228,26 +228,25 @@ section{
     padding-top: 10rem;
     text-align: center;
     overflow-x: hidden;
-    background: url('image/frontpagecars.png') no-repeat;
+    background: url(/image/aaabstract.png) no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;  
 }
 
 .home h3{
-    color:var(--green);
+    color: white;
     font-size: 4.5vw;
     text-transform: uppercase;
 }
 
-/* .home img{
+.home img{
     width:100%;
     margin:1rem 0;
-} */
+}
 
 .newsletter{
     padding:6rem 2rem;
-    background: url("/image/backgrounds/subscribe.png") no-repeat;
+    background: url(/image/backgrounds/subscribe.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;  
